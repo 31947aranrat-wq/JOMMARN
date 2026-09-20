@@ -1,0 +1,8 @@
+{
+  "name": "Remix Jommarn",
+  "description": "แอปวางแผนส่งงาน เริ่มทีละนิด ส่งงานทันทุกวิชา พร้อมระบบล็อกอิน/สมัครสมาชิก บัญชีผู้ใช้ แชทกลุ่ม/เดี่ยว และการปรับแต่งธีม",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

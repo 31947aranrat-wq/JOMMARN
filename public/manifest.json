@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "Remix Jommarn - เริ่มทีละนิด ส่งงานทันทุกวิชา",
+  "short_name": "Jommarn",
+  "description": "แอปวางแผนส่งงาน เริ่มทีละนิด ส่งงานทันทุกวิชา พร้อมระบบโทรคุยการบ้าน เปิด-ปิดกล้องและไมค์ และแชทแลกเปลี่ยนความรู้",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#15203B",
+  "background_color": "#0E1424",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

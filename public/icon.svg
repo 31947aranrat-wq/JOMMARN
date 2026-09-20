@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15203B" />
+      <stop offset="100%" stop-color="#0E1424" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2DD4BF" />
+      <stop offset="100%" stop-color="#1F9D8B" />
+    </linearGradient>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  
+  <!-- Subtle inner border -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="#2A3555" stroke-width="4" opacity="0.6" />
+
+  <!-- Center Icon: Planner Book & Checkmark -->
+  <g transform="translate(106, 110)">
+    <!-- Book/Notebook base -->
+    <rect x="20" y="30" width="260" height="260" rx="40" fill="#1C2744" stroke="#2DD4BF" stroke-width="8" />
+    
+    <!-- Accent line details -->
+    <rect x="60" y="80" width="120" height="14" rx="7" fill="#65708A" opacity="0.7" />
+    <rect x="60" y="120" width="180" height="14" rx="7" fill="#65708A" opacity="0.5" />
+    <rect x="60" y="160" width="140" height="14" rx="7" fill="#65708A" opacity="0.5" />
+
+    <!-- Big Checkmark badge -->
+    <circle cx="210" cy="210" r="60" fill="url(#accentGrad)" />
+    <path d="M185 210 L202 227 L236 193" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Sparkle / Star top right -->
+    <path d="M 230 15 Q 245 40 270 45 Q 245 50 240 75 Q 235 50 210 45 Q 235 40 230 15 Z" fill="url(#starGrad)" />
+  </g>
+</svg>
